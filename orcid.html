@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+  Please direct complaints, feedback, and/or suggestions to
+  mail@********wu.com (replace the asterisks with my first name,
+  and check the address bar if you aren't sure).
+
+  Copyright (C) 2023 Adrianne Wu
+
+  License: CC BY-SA 4.0 (except where otherwise noted) https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adrianne Wu">
+    <meta name="description" content="Redirecting...">
+    <meta http-equiv="refresh" content="3; URL=https://orcid.org/0000-0002-4470-7070">
+    <title>Redirecting...</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+    /*
+      Begin CSS for external link icons modified from Stack Overflow answer by Brigand (posted 2013-08-11)
+      Title: How can I style external links like Wikipedia?
+      Author: https://stackoverflow.com/users/1074592/brigand
+      Source: https://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia
+      License: CC BY-SA 3.0 https://stackoverflow.com/help/licensing
+      Modification(s): Changed links and :after attribute values
+    */
+
+      a[href^="https://"]::after, a[href^="http://"]::after, a[href^="//"]:after {
+        content: '';
+        width: 0.5em;
+        height: 0.5em;
+        margin-left: 5px;
+        margin-right: 3px;
+        /*
+          Modified from SVG by OOjs UI Team and other contributors (copyright 2011–2017)
+          Title: File:OOjs UI icon external-link-ltr-invert.svg
+          Author: https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt
+          Source: https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_external-link-ltr-invert.svg
+          License: Expat/MIT License https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/LICENSE-MIT
+          Modification(s): Changed fill color
+        */
+        background-image: url(icons/external_link.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+      }
+
+      a[href^="https://adriannewu.com/"]::after, a[href^="http://adriannewu.com/"]::after, a[href^="//adriannewu.com/"]:after {
+        display: none!important;
+      }
+
+      /* End CSS for external link icons modified from https://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia */
+    </style>
+  </head>
+  <body>
+    <div class="center-height">
+      <header><h1>Redirecting...</h1></header>
+      <main>
+        <p>If you are not redirected in the next 3 seconds, please click <a href="https://orcid.org/0000-0002-4470-7070" target="_blank" rel="noreferrer">here</a>.</p>
+      </main>
+    </div>
+  </body>
+</html>

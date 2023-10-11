@@ -1,0 +1,222 @@
+/*
+  Please direct complaints, feedback, and/or suggestions to
+  mail@********wu.com (replace the asterisks with my first name,
+  and check the address bar if you aren't sure).
+
+  Copyright (C) 2023 Adrianne Wu
+
+  Licensed under CC BY-SA 4.0 (except where otherwise noted) https://creativecommons.org/licenses/by-sa/4.0/
+*/
+
+/* License information: https://adriannewu.com/fonts/Cormorant-OFL.txt */
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/cormorant/Cormorant-Regular.woff2') format('woff2'),
+       url('fonts/cormorant/Cormorant-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/cormorant/Cormorant-Italic.woff2') format('woff2'),
+       url('fonts/cormorant/Cormorant-Italic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/cormorant/Cormorant-Bold.woff2') format('woff2'),
+       url('fonts/cormorant/Cormorant-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: italic;
+  font-weight: 700;
+  src: url('fonts/cormorant/Cormorant-BoldItalic.woff2') format('woff2'),
+       url('fonts/cormorant/Cormorant-BoldItalic.woff') format('woff');
+  font-display: swap;
+}
+
+/* License information: https://adriannewu.com/fonts/LMSans-GFL.txt */
+
+@font-face {
+  font-family: 'LMSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/lmsans/lmsans10-regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LMSans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/lmsans/lmsans10-oblique.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LMSans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/lmsans/lmsans10-bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LMSans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('fonts/lmsans/lmsans-boldoblique.woff') format('woff');
+  font-display: swap;
+}
+
+/* License information: https://adriannewu.com/fonts/ProzaLibre-OFL.txt
+
+@font-face {
+  font-family: 'ProzaLibre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/prozalibre/ProzaLibre-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProzaLibre';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/prozalibre/ProzaLibre-Italic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProzaLibre';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/prozalibre/ProzaLibre-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProzaLibre';
+  font-style: italic;
+  font-weight: 700;
+  src: url('fonts/prozalibre/ProzaLibre-BoldItalic.woff') format('woff');
+  font-display: swap;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cormorant', serif;
+  font-size: calc(12px + 0.5vw);
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #1A1A1A;
+  color: #F7F7F7;
+  margin: 0;
+}
+
+a {
+  color: #B7B7B7!important;
+  text-decoration: none!important;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #C8C8C8!important;
+  text-decoration: none!important;
+  border-bottom: 1px solid #C8C8C8;
+  transition: 0.5s;
+}
+
+code, pre {
+  font-family: monospace, monospace;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+header {
+  font-family: 'Cormorant', serif;
+}
+
+h1 {
+  font-size: calc(20px + 2.5vw);
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.center-height {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.lmsans {
+  font-family: 'LMSans', sans-serif;
+}
+
+.stress {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/*
+  Begin CSS for LaTeX logo typesetting from http://edward.oconnor.cx/2007/08/tex-poshlet
+  Title: TeX and LaTeX logo POSHlets
+  Author: Theresa O’Connor (copyright 2007)
+  Source: http://edward.oconnor.cx/2007/08/tex-poshlet
+  License: CC BY-SA 3.0 http://creativecommons.org/licenses/by-sa/3.0/
+  Modification(s): None
+*/
+
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+/* How to use in .html: <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> */
+
+/* End CSS for LaTeX logo typesetting from http://edward.oconnor.cx/2007/08/tex-poshlet */

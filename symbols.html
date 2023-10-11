@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<!--
+  Please direct complaints, feedback, and/or suggestions to
+  mail@********wu.com (replace the asterisks with my first name,
+  and check the address bar if you aren't sure).
+
+  Copyright (C) 2023 Adrianne Wu
+
+  License: CC BY-SA 4.0 (except where otherwise noted) https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adrianne Wu">
+    <meta name="description" content="Symbols – Adrianne Wu">
+    <title>Symbols – Adrianne Wu</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+      a {
+        border-bottom: 1px solid #B7B7B7;
+      }
+
+      a:hover {
+        color: #C8C8C8!important;
+        text-decoration: none!important;
+        border-bottom: 1px solid #C8C8C8;
+        transition: 0.5s;
+      }
+
+      /*
+        Begin CSS for external link icons modified from Stack Overflow answer by Brigand (posted 2013-08-11)
+        Title: How can I style external links like Wikipedia?
+        Author: https://stackoverflow.com/users/1074592/brigand
+        Source: https://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia
+        License: CC BY-SA 3.0 https://stackoverflow.com/help/licensing
+        Modification(s): Changed links and :after attribute values
+      */
+
+      a[href^="https://"]::after, a[href^="http://"]::after, a[href^="//"]:after {
+        content: '';
+        width: 0.5em;
+        height: 0.5em;
+        margin-left: 5px;
+        margin-right: 3px;
+        /*
+          Modified from SVG by OOjs UI Team and other contributors (copyright 2011–2017)
+          Title: File:OOjs UI icon external-link-ltr-invert.svg
+          Author: https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt
+          Source: https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_external-link-ltr-invert.svg
+          License: Expat/MIT License https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/LICENSE-MIT
+          Modification(s): Changed fill color
+        */
+        background-image: url(icons/external_link.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+      }
+
+      a[href^="https://adriannewu.com/"]::after, a[href^="http://adriannewu.com/"]::after, a[href^="//adriannewu.com/"]:after {
+        display: none!important;
+      }
+
+      /* End CSS for external link icons modified from https://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia */
+
+      figure {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+      }
+
+      h2 {
+        margin-top: 1.5em;
+      }
+
+      hr {
+        margin-top: 2.65em;
+        margin-bottom: 2em;
+      }
+
+      img {
+        padding-top: 10px;
+        height: 60px;
+        width: 80px;
+        filter: invert(1);
+      }
+
+      sup a {
+        color: #B7B7B7!important;
+        text-decoration: none;
+        border-bottom: none;
+        transition: 0.5s;
+      }
+
+      sup a:hover {
+        color: #C8C8C8!important;
+        text-decoration: none;
+        border-bottom: none;
+        transition: 0.5s;
+      }
+
+      /* @media (min-width: 850px) and (orientation: landscape) { */
+        table {
+          border-collapse: collapse;
+          text-align: left;
+          width: 100%;
+        }
+
+        table, th, td {
+          padding: 5px 18px;
+        }
+
+        th, td {
+          background-color: #222222;
+          border: 1px solid #242424!important;
+        }
+      /* } */
+
+      .text {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5em;
+        padding-right: 5em;
+        padding-bottom: 5em;
+        padding-left: 5em;
+        max-width: 50em;
+        text-align: left;
+      }
+
+      #refs li:target {
+        background-color: #2F2F2F;
+        transition: 0.5s;
+      }
+
+      #toc {
+        background-color: #222222;
+        border: 1px solid #242424!important;
+        width: 7em;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+      }
+
+      #toc ol {
+        margin-top: 0.5em!important;
+        padding-left: 1.5em;
+      }
+    </style>
+  </head>
+  <body class="text">
+    <header>
+      <h1 id="symbols">Symbols</h1>
+    </header>
+    <p style="margin-bottom: 2.5em;">Information on this page, which is not optimized for mobile devices, is for personal reference. It is not meant to be an exhaustive list and may be out-of-date or incorrect due to human error. If you see a mistake, feel free to <a href="https://adriannewu.com/#email" target="_blank" rel="noopener">email me</a>.</p>
+    <nav>
+      <div id="toc">
+        <span style="font-weight: 700;">Contents</span>
+        <ol>
+          <li><a href="#arrows" style="border-bottom: none;">Arrows</a></li>
+          <li><a href="#greek" style="border-bottom: none;">Greek letters</a></li>
+          <li><a href="#latin" style="border-bottom: none;">Latin letters</a></li>
+          <li><a href="#math" style="border-bottom: none;">Math</a></li>
+          <li><a href="#numbers" style="border-bottom: none;">Numbers</a></li>
+          <li><a href="#punctuation" style="border-bottom: none;">Punctuation</a></li>
+          <li><a href="#other" style="border-bottom: none;">Other</a></li>
+          <li><a href="#references" style="border-bottom: none;">References</a></li>
+        </ol>
+      </div>
+    </nav>
+    <!--
+    Template
+    <section>
+      <h2 id="section">Section</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th>HTML entity</th>
+            <th><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> command</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>TBD</td>
+            <td>description</td>
+            <td><code>U+TBD</code></td>
+            <td><code>&amp;TBD;</code></td>
+            <td><code>\TBD</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    -->
+    <section>
+      <h2 id="arrows">Arrows</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th><span title="Capitalize A for double lines (e.g., lArr;), add tl for tail (e.g., larrtl;), add x for longer arrow (e.g., xlArr;)">HTML entity</span></th>
+            <th><span title="Capitalize first letter for arrow with double lines (e.g., \Leftarrow)"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> command</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>←</td>
+            <td>left arrow</td>
+            <td><code>U+02190</code></td>
+            <td><code>&amp;larr;</code></td>
+            <td><code>\leftarrow</code></td>
+          </tr>
+          <tr>
+            <td>↑</td>
+            <td>up arrow</td>
+            <td><code>U+02191</code></td>
+            <td><code>&amp;uarr;</code></td>
+            <td><code>\uparrow</code></td>
+          </tr>
+          <tr>
+            <td>→</td>
+            <td>right arrow</td>
+            <td><code>U+02192</code></td>
+            <td><code>&amp;rarr;</code></td>
+            <td><code>\rightarrow</code></td>
+          </tr>
+          <tr>
+            <td>↓</td>
+            <td>down arrow</td>
+            <td><code>U+02193</code></td>
+            <td><code>&amp;darr;</code></td>
+            <td><code>\downarrow</code></td>
+          </tr>
+          <tr>
+            <td>↖</td>
+            <td>north west arrow</td>
+            <td><code>U+02196</code></td>
+            <td><code>&amp;nwarr;</code></td>
+            <td><code>\nwarrow</code></td>
+          </tr>
+          <tr>
+            <td>↗</td>
+            <td>north east arrow</td>
+            <td><code>U+02197</code></td>
+            <td><code>&amp;nearr;</code></td>
+            <td><code>\nearrow</code></td>
+          </tr>
+          <tr>
+            <td>↘</td>
+            <td>south east arrow</td>
+            <td><code>U+02198</code></td>
+            <td><code>&amp;searr;</code></td>
+            <td><code>\searrow</code></td>
+          </tr>
+          <tr>
+            <td>↙</td>
+            <td>south west arrow</td>
+            <td><code>U+02199</code></td>
+            <td><code>&amp;swarr;</code></td>
+            <td><code>\swarrow</code></td>
+          </tr>
+          <tr>
+            <td>↰</td>
+            <td>up arrow pointing left</td>
+            <td><code>U+021B0</code></td>
+            <td><code>&amp;Lsh;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>↱</td>
+            <td>up arrow pointing right</td>
+            <td><code>U+021B1</code></td>
+            <td><code>&amp;Rsh;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>↳</td>
+            <td>down arrow pointing right</td>
+            <td><code>U+021B3</code></td>
+            <td><code>&amp;rdsh;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>↵</td>
+            <td>down arrow with pointing left</td>
+            <td><code>U+021B5</code></td>
+            <td><code>&amp;crarr;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>⇌</td>
+            <td>equilibrium</td>
+            <td><code>U+021CC</code></td>
+            <td><code>&amp;Equilibrium;</code></td>
+            <td><code>\rightleftharpoons</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    <section>
+      <h2 id="greek">Greek letters</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th>HTML entity</th>
+            <th><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> command</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Α</td>
+            <td>uppercase alpha</td>
+            <td><code>U+00391</code></td>
+            <td><code>&amp;Alpha;</code></td>
+            <td><code>A</code></td>
+          </tr>
+          <tr>
+            <td>α</td>
+            <td>lowercase alpha</td>
+            <td><code>U+003B1</code></td>
+            <td><code>&amp;alpha;</code></td>
+            <td><code>\alpha</code></td>
+          </tr>
+          <tr>
+            <td>Β</td>
+            <td>uppercase beta</td>
+            <td><code>U+00392</code></td>
+            <td><code>&amp;Beta;</code></td>
+            <td><code>B</code></td>
+          </tr>
+          <tr>
+            <td>β</td>
+            <td>lowercase beta</td>
+            <td><code>U+003B2</code></td>
+            <td><code>&amp;beta;</code></td>
+            <td><code>\beta</code></td>
+          </tr>
+          <tr>
+            <td>Γ</td>
+            <td>uppercase gamma</td>
+            <td><code>U+00393</code></td>
+            <td><code>&amp;Gamma;</code></td>
+            <td><code>\Gamma</code></td>
+          </tr>
+          <tr>
+            <td>γ</td>
+            <td>lowercase gamma</td>
+            <td><code>U+003B3</code></td>
+            <td><code>&amp;gamma;</code></td>
+            <td><code>\gamma</code></td>
+          </tr>
+          <tr>
+            <td>Δ</td>
+            <td>uppercase delta</td>
+            <td><code>U+00394</code></td>
+            <td><code>&amp;Delta;</code></td>
+            <td><code>\Delta</code></td>
+          </tr>
+          <tr>
+            <td>δ</td>
+            <td>lowercase delta</td>
+            <td><code>U+003B4</code></td>
+            <td><code>&amp;delta;</code></td>
+            <td><code>\delta</code></td>
+          </tr>
+          <tr>
+            <td>Ε</td>
+            <td>uppercase epsilon</td>
+            <td><code>U+00395</code></td>
+            <td><code>&amp;Epsilon;</code></td>
+            <td><code>E</code></td>
+          </tr>
+          <tr>
+            <td>ε</td>
+            <td>lowercase epsilon</td>
+            <td><code>U+003B5</code></td>
+            <td><code>&amp;epsilon;</code></td>
+            <td><code>\epsilon</code>, <code>\varepsilon</code></td>
+          </tr>
+          <tr>
+            <td>Ζ</td>
+            <td>uppercase zeta</td>
+            <td><code>U+00396</code></td>
+            <td><code>&amp;Zeta;</code></td>
+            <td><code>Z</code></td>
+          </tr>
+          <tr>
+            <td>ζ</td>
+            <td>lowercase zeta</td>
+            <td><code>U+003B6</code></td>
+            <td><code>&amp;zeta;</code></td>
+            <td><code>\zeta</code></td>
+          </tr>
+          <tr>
+            <td>Η</td>
+            <td>uppercase eta</td>
+            <td><code>U+00397</code></td>
+            <td><code>&amp;Eta;</code></td>
+            <td><code>H</code></td>
+          </tr>
+          <tr>
+            <td>η</td>
+            <td>lowercase eta</td>
+            <td><code>U+003B7</code></td>
+            <td><code>&amp;eta;</code></td>
+            <td><code>\eta</code></td>
+          </tr>
+          <tr>
+            <td>Θ</td>
+            <td>uppercase theta</td>
+            <td><code>U+00398</code></td>
+            <td><code>&amp;Theta;</code></td>
+            <td><code>\Theta</code></td>
+          </tr>
+          <tr>
+            <td>θ</td>
+            <td>lowercase theta</td>
+            <td><code>U+003B8</code></td>
+            <td><code>&amp;theta;</code></td>
+            <td><code>\theta</code>, <code>\vartheta</code></td>
+          </tr>
+          <tr>
+            <td>Ι</td>
+            <td>uppercase iota</td>
+            <td><code>U+00399</code></td>
+            <td><code>&amp;Iota;</code></td>
+            <td><code>I</code></td>
+          </tr>
+          <tr>
+            <td>ι</td>
+            <td>lowercase iota</td>
+            <td><code>U+003B9</code></td>
+            <td><code>&amp;iota;</code></td>
+            <td><code>\iota</code></td>
+          </tr>
+          <tr>
+            <td>Κ</td>
+            <td>uppercase kappa</td>
+            <td><code>U+0039A</code></td>
+            <td><code>&amp;Kappa;</code></td>
+            <td><code>K</code></td>
+          </tr>
+          <tr>
+            <td>κ</td>
+            <td>lowercase kappa</td>
+            <td><code>U+003BA</code></td>
+            <td><code>&amp;kappa;</code></td>
+            <td><code>\kappa</code></td>
+          </tr>
+          <tr>
+            <td>Λ</td>
+            <td>uppercase lambda</td>
+            <td><code>U+0039B</code></td>
+            <td><code>&amp;Lambda;</code></td>
+            <td><code>\Lambda</code></td>
+          </tr>
+          <tr>
+            <td>λ</td>
+            <td>lowercase lambda</td>
+            <td><code>U+003BB</code></td>
+            <td><code>&amp;lambda;</code></td>
+            <td><code>\lambda</code></td>
+          </tr>
+          <tr>
+            <td>Μ</td>
+            <td>uppercase mu</td>
+            <td><code>U+0039C</code></td>
+            <td><code>&amp;Mu;</code></td>
+            <td><code>M</code></td>
+          </tr>
+          <tr>
+            <td>μ</td>
+            <td>lowercase mu</td>
+            <td><code>U+003BC</code></td>
+            <td><code>&amp;mu;</code></td>
+            <td><code>\mu</code></td>
+          </tr>
+          <tr>
+            <td>Ν</td>
+            <td>uppercase nu</td>
+            <td><code>U+0039D</code></td>
+            <td><code>&amp;Nu;</code></td>
+            <td><code>N</code></td>
+          </tr>
+          <tr>
+            <td>ν</td>
+            <td>lowercase nu</td>
+            <td><code>U+003BD</code></td>
+            <td><code>&amp;nu;</code></td>
+            <td><code>\nu</code></td>
+          </tr>
+          <tr>
+            <td>Ξ</td>
+            <td>uppercase xi</td>
+            <td><code>U+0039E</code></td>
+            <td><code>&amp;Xi;</code></td>
+            <td><code>\Xi</code></td>
+          </tr>
+          <tr>
+            <td>ξ</td>
+            <td>lowercase xi</td>
+            <td><code>U+003BE</code></td>
+            <td><code>&amp;xi;</code></td>
+            <td><code>\xi</code></td>
+          </tr>
+          <tr>
+            <td>Ο</td>
+            <td>uppercase omicron</td>
+            <td><code>U+0039F</code></td>
+            <td><code>&amp;Omicron;</code></td>
+            <td><code>O</code></td>
+          </tr>
+          <tr>
+            <td>ο</td>
+            <td>lowercase omicron</td>
+            <td><code>U+003BF</code></td>
+            <td><code>&amp;omicron;</code></td>
+            <td><code>o</code></td>
+          </tr>
+          <tr>
+            <td>Π</td>
+            <td>uppercase pi</td>
+            <td><code>U+003A0</code></td>
+            <td><code>&amp;Pi;</code></td>
+            <td><code>\Pi</code></td>
+          </tr>
+          <tr>
+            <td>π</td>
+            <td>lowercase pi</td>
+            <td><code>U+003C0</code></td>
+            <td><code>&amp;pi;</code></td>
+            <td><code>\pi</code></td>
+          </tr>
+          <tr>
+            <td>Ρ</td>
+            <td>uppercase rho</td>
+            <td><code>U+003A1</code></td>
+            <td><code>&amp;Rho;</code></td>
+            <td><code>P</code></td>
+          </tr>
+          <tr>
+            <td>ρ</td>
+            <td>lowercase rho</td>
+            <td><code>U+003C1</code></td>
+            <td><code>&amp;rho;</code></td>
+            <td><code>\rho</code>, <code>\varrho</code></td>
+          </tr>
+          <tr>
+            <td>Σ</td>
+            <td>uppercase sigma</td>
+            <td><code>U+003A3</code></td>
+            <td><code>&amp;Sigma;</code></td>
+            <td><code>\Sigma</code></td>
+          </tr>
+          <tr>
+            <td>σ</td>
+            <td>lowercase sigma</td>
+            <td><code>U+003C3</code>, <code>U+003C2</code></td>
+            <td><code>&amp;sigma;</code>, <code>&amp;sigmaf;</code></td>
+            <td><code>\sigma</code></td>
+          </tr>
+          <tr>
+            <td>Τ</td>
+            <td>uppercase tau</td>
+            <td><code>U+003A4</code></td>
+            <td><code>&amp;Tau;</code></td>
+            <td><code>T</code></td>
+          </tr>
+          <tr>
+            <td>τ</td>
+            <td>lowercase tau</td>
+            <td><code>U+003C4</code></td>
+            <td><code>&amp;tau;</code></td>
+            <td><code>\tau</code></td>
+          </tr>
+          <tr>
+            <td>Υ</td>
+            <td>uppercase upsilon</td>
+            <td><code>U+003A5</code></td>
+            <td><code>&amp;Upsilon;</code></td>
+            <td><code>\Upsilon</code></td>
+          </tr>
+          <tr>
+            <td>υ</td>
+            <td>lowercase upsilon</td>
+            <td><code>U+003C5</code></td>
+            <td><code>&amp;upsilon;</code></td>
+            <td><code>\upsilon</code></td>
+          </tr>
+          <tr>
+            <td>Φ</td>
+            <td>uppercase phi</td>
+            <td><code>U+003A6</code></td>
+            <td><code>&amp;Phi;</code></td>
+            <td><code>\Phi</code></td>
+          </tr>
+          <tr>
+            <td>φ</td>
+            <td>lowercase phi</td>
+            <td><code>U+003C6</code></td>
+            <td><code>&amp;phi;</code></td>
+            <td><code>\phi</code>, <code>\varphi</code></td>
+          </tr>
+          <tr>
+            <td>Χ</td>
+            <td>uppercase chi</td>
+            <td><code>U+003A7</code></td>
+            <td><code>&amp;Chi;</code></td>
+            <td><code>X</code></td>
+          </tr>
+          <tr>
+            <td>χ</td>
+            <td>lowercase chi</td>
+            <td><code>U+003C7</code></td>
+            <td><code>&amp;chi;</code></td>
+            <td><code>\chi</code></td>
+          </tr>
+          <tr>
+            <td>Ψ</td>
+            <td>uppercase psi</td>
+            <td><code>U+003A8</code></td>
+            <td><code>&amp;Psi;</code></td>
+            <td><code>\Psi</code></td>
+          </tr>
+          <tr>
+            <td>ψ</td>
+            <td>lowercase psi</td>
+            <td><code>U+003C8</code></td>
+            <td><code>&amp;psi;</code></td>
+            <td><code>\psi</code></td>
+          </tr>
+          <tr>
+            <td>Ω</td>
+            <td>uppercase omega</td>
+            <td><code>U+003A9</code></td>
+            <td><code>&amp;Omega;</code></td>
+            <td><code>\Omega</code></td>
+          </tr>
+          <tr>
+            <td>ω</td>
+            <td>lowercase omega</td>
+            <td><code>U+003C9</code></td>
+            <td><code>&amp;omega;</code></td>
+            <td><code>\omega</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    <section>
+      <h2 id="latin">Latin letters</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th>HTML entity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A</td>
+            <td>1st letter</td>
+            <td><code>U+00041</code></td>
+            <td><code>&amp;#65;</code></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td>2nd letter</td>
+            <td><code>U+00042</code></td>
+            <td><code>&amp;#66;</code></td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td>3rd letter</td>
+            <td><code>U+00043</code></td>
+            <td><code>&amp;#67;</code></td>
+          </tr>
+          <tr>
+            <td>D</td>
+            <td>4th letter</td>
+            <td><code>U+00044</code></td>
+            <td><code>&amp;#68;</code></td>
+          </tr>
+          <tr>
+            <td>E</td>
+            <td>5th letter</td>
+            <td><code>U+00045</code></td>
+            <td><code>&amp;#69;</code></td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td>6th letter</td>
+            <td><code>U+00046</code></td>
+            <td><code>&amp;#70;</code></td>
+          </tr>
+          <tr>
+            <td>G</td>
+            <td>7th letter</td>
+            <td><code>U+00047</code></td>
+            <td><code>&amp;#71;</code></td>
+          </tr>
+          <tr>
+            <td>H</td>
+            <td>8th letter</td>
+            <td><code>U+00048</code></td>
+            <td><code>&amp;#72;</code></td>
+          </tr>
+          <tr>
+            <td>I</td>
+            <td>9th letter</td>
+            <td><code>U+00049</code></td>
+            <td><code>&amp;#73;</code></td>
+          </tr>
+          <tr>
+            <td>J</td>
+            <td>10th letter</td>
+            <td><code>U+0004A</code></td>
+            <td><code>&amp;#74;</code></td>
+          </tr>
+          <tr>
+            <td>K</td>
+            <td>11th letter</td>
+            <td><code>U+0004B</code></td>
+            <td><code>&amp;#75;</code></td>
+          </tr>
+          <tr>
+            <td>L</td>
+            <td>12th letter</td>
+            <td><code>U+0004C</code></td>
+            <td><code>&amp;#76;</code></td>
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>13th letter</td>
+            <td><code>U+0004D</code></td>
+            <td><code>&amp;#77;</code></td>
+          </tr>
+          <tr>
+            <td>N</td>
+            <td>14th letter</td>
+            <td><code>U+0004E</code></td>
+            <td><code>&amp;#78;</code></td>
+          </tr>
+          <tr>
+            <td>O</td>
+            <td>15th letter</td>
+            <td><code>U+0004F</code></td>
+            <td><code>&amp;#79;</code></td>
+          </tr>
+          <tr>
+            <td>P</td>
+            <td>16th letter</td>
+            <td><code>U+00050</code></td>
+            <td><code>&amp;#80;</code></td>
+          </tr>
+          <tr>
+            <td>Q</td>
+            <td>17th letter</td>
+            <td><code>U+00051</code></td>
+            <td><code>&amp;#81;</code></td>
+          </tr>
+          <tr>
+            <td>R</td>
+            <td>18th letter</td>
+            <td><code>U+00052</code></td>
+            <td><code>&amp;#82;</code></td>
+          </tr>
+          <tr>
+            <td>S</td>
+            <td>19th letter</td>
+            <td><code>U+00053</code></td>
+            <td><code>&amp;#83;</code></td>
+          </tr>
+          <tr>
+            <td>T</td>
+            <td>20th letter</td>
+            <td><code>U+00054</code></td>
+            <td><code>&amp;845;</code></td>
+          </tr>
+          <tr>
+            <td>U</td>
+            <td>21st letter</td>
+            <td><code>U+00055</code></td>
+            <td><code>&amp;#85;</code></td>
+          </tr>
+          <tr>
+            <td>V</td>
+            <td>22nd letter</td>
+            <td><code>U+00056</code></td>
+            <td><code>&amp;#86;</code></td>
+          </tr>
+          <tr>
+            <td>W</td>
+            <td>23rd letter</td>
+            <td><code>U+00057</code></td>
+            <td><code>&amp;#87;</code></td>
+          </tr>
+          <tr>
+            <td>X</td>
+            <td>24th letter</td>
+            <td><code>U+00058</code></td>
+            <td><code>&amp;#88;</code></td>
+          </tr>
+          <tr>
+            <td>Y</td>
+            <td>25th letter</td>
+            <td><code>U+00059</code></td>
+            <td><code>&amp;#89;</code></td>
+          </tr>
+          <tr>
+            <td>Z</td>
+            <td>26th letter</td>
+            <td><code>U+0005A</code></td>
+            <td><code>&amp;#90;</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    <section>
+      <h2 id="math">Math</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th>HTML entity</th>
+            <th><span title="May require additional package (e.g., amssymb)"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> command</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>≈</td>
+            <td>approximately</td>
+            <td><code>U+02248</code></td>
+            <td><code>&amp;approx;</code></td>
+            <td><code>\approx</code></td>
+          </tr>
+          <tr>
+            <td>=</td>
+            <td>equal to, equal sign</td>
+            <td><code>U+0003D</code></td>
+            <td><code>&amp;equals;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>≥</td>
+            <td>greater than or equal to</td>
+            <td><code>U+02265</code></td>
+            <td><code>&amp;ge;</code></td>
+            <td><code>\geq</code></td>
+          </tr>
+          <tr>
+            <td>≤</td>
+            <td>less than or equal to</td>
+            <td><code>U+02264</code></td>
+            <td><code>&amp;leq;</code></td>
+            <td><code>\leq</code></td>
+          </tr>
+          <tr>
+            <td>≠</td>
+            <td>not equal to</td>
+            <td><code>U+02260</code></td>
+            <td><code>&amp;ne;</code></td>
+            <td><code>\neq</code></td>
+          </tr>
+          <tr>
+            <td>∝</td>
+            <td>proportional to</td>
+            <td><code>U+0221D</code></td>
+            <td><code>&amp;prop;</code></td>
+            <td><code>\propto</code></td>
+          </tr>
+          <tr>
+            <td>÷</td>
+            <td>divide</td>
+            <td><code>U+000F7</code></td>
+            <td><code>&amp;divide;</code></td>
+            <td><code>\div</code></td>
+          </tr>
+          <tr>
+            <td>×</td>
+            <td>multiplication</td>
+            <td><code>U+000D7</code></td>
+            <td><code>&amp;times;</code></td>
+            <td><code>\times</code></td>
+          </tr>
+          <tr>
+            <td>±</td>
+            <td>plus or minus</td>
+            <td><code>U+000B1</code></td>
+            <td><code>&plusmn;</code></td>
+            <td><code>\pm</code></td>
+          </tr>
+          <tr>
+            <td>ƒ</td>
+            <td>function</td>
+            <td><code>U+00192</code></td>
+            <td><code>&amp;fnof;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>∞</td>
+            <td>infinity</td>
+            <td><code>U+0221E</code></td>
+            <td><code>&amp;infin;</code></td>
+            <td><code>\infty</code></td>
+          </tr>
+          <tr>
+            <td>⟂</td>
+            <td>perpendicular</td>
+            <td><code>U+027C2</code></td>
+            <td><code>&amp;#10178;</code></td>
+            <td><code>\perp</code></td>
+          </tr>
+          <tr>
+            <td>√</td>
+            <td>square root</td>
+            <td><code>U+0221A</code></td>
+            <td><code>&amp;Sqrt;</code></td>
+            <td><code>\surd</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    <section>
+      <h2 id="numbers">Numbers</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th>HTML entity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0</td>
+            <td>digit zero</td>
+            <td><code>U+00030</code></td>
+            <td><code>&amp;#48;</code></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>digit one</td>
+            <td><code>U+00031</code></td>
+            <td><code>&amp;#49;</code></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>digit two</td>
+            <td><code>U+00032</code></td>
+            <td><code>&amp;#50;</code></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>digit three</td>
+            <td><code>U+00033</code></td>
+            <td><code>&amp;#51;</code></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>digit four</td>
+            <td><code>U+00034</code></td>
+            <td><code>&amp;#52;</code></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>digit five</td>
+            <td><code>U+00035</code></td>
+            <td><code>&amp;#53;</code></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>digit six</td>
+            <td><code>U+00036</code></td>
+            <td><code>&amp;#54;</code></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>digit seven</td>
+            <td><code>U+00037</code></td>
+            <td><code>&amp;#55;</code></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>digit eight</td>
+            <td><code>U+00038</code></td>
+            <td><code>&amp;#56;</code></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>digit nine</td>
+            <td><code>U+00039</code></td>
+            <td><code>&amp;#57;</code></td>
+          </tr>
+          <tr>
+            <td>¹</td>
+            <td>superscript one</td>
+            <td><code>U+000B9</code></td>
+            <td><code>&amp;sup1;</code></td>
+          </tr>
+          <tr>
+            <td>²</td>
+            <td>superscript two</td>
+            <td><code>U+000B2</code></td>
+            <td><code>&amp;sup2;</code></td>
+          </tr>
+          <tr>
+            <td>³</td>
+            <td>superscript three</td>
+            <td><code>U+000B3</code></td>
+            <td><code>&amp;sup3;</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    <section>
+      <h2 id="punctuation">Punctuation</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th>HTML entity</th>
+            <th><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> command</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>–</td>
+            <td>en dash</td>
+            <td><code>U+02013</code></td>
+            <td><code>&amp;ndash;</code></td>
+            <td><code>--</code></td>
+          </tr>
+          <tr>
+            <td>—</td>
+            <td>em dash</td>
+            <td><code>U+02014</code></td>
+            <td><code>&amp;mdash;</code></td>
+            <td><code>---</code></td>
+          </tr>
+          <tr>
+            <td>‘</td>
+            <td>left single quote, quotation mark</td>
+            <td><code>U+02018</code></td>
+            <td><code>&amp;lsquo;</code></td>
+            <td><code>`</code></td>
+          </tr>
+          <tr>
+            <td>’</td>
+            <td>right single quote, quotation mark</td>
+            <td><code>U+02019</code></td>
+            <td><code>&amp;rsquo;</code></td>
+            <td><code>'</code></td>
+          </tr>
+          <tr>
+            <td>“</td>
+            <td>left double quote, quotation mark</td>
+            <td><code>U+0201C</code></td>
+            <td><code>&amp;ldquo;</code></td>
+            <td><code>``</code></td>
+          </tr>
+          <tr>
+            <td>”</td>
+            <td>right double quote, quotation mark</td>
+            <td><code>U+0201D</code></td>
+            <td><code>&amp;rdquo;</code></td>
+            <td><code>''</code></td>
+          </tr>
+          <tr>
+            <td>…</td>
+            <td>ellipsis</td>
+            <td><code>U+02026</code></td>
+            <td><code>&amp;hellip;</code></td>
+            <td><code>\ldots</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    <section>
+      <h2 id="other">Other</h2>
+  		<table>
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Description</th>
+            <th>Unicode code point</th>
+            <th>HTML entity</th>
+            <th><span title="May require additional package (e.g., amssymb)"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> command</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>°</td>
+            <td>degree</td>
+            <td><code>U+000B0</code></td>
+            <td><code>&amp;deg;</code></td>
+            <td><code>$^\circ$</code></td>
+          </tr>
+          <tr>
+            <td>&bullet;</td>
+            <td>bullet point</td>
+            <td><code>U+02022</code></td>
+            <td><code>&amp;bullet;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>·</td>
+            <td>center, middle dot</td>
+            <td><code>U+000B7</code></td>
+            <td><code>&amp;middot;</code></td>
+            <td><code>\cdot</code></td>
+          </tr>
+          <tr>
+            <td>¬</td>
+            <td>negation, not sign</td>
+            <td><code>U+000AC</code></td>
+            <td><code>&amp;not;</code></td>
+            <td><code>\neg</code></td>
+          </tr>
+          <tr>
+            <td>∴</td>
+            <td>therefore</td>
+            <td><code>U+02234</code></td>
+            <td><code>&amp;therefore;</code></td>
+            <td><code>\therefore</code></td>
+          </tr>
+          <tr>
+            <td>&dagger;</td>
+            <td>dagger</td>
+            <td><code>U+02020</code></td>
+            <td><code>&amp;dagger;</code></td>
+            <td><code>\dag</code></td>
+          </tr>
+          <tr>
+            <td>¶</td>
+            <td>paragraph</td>
+            <td><code>U+000B6</code></td>
+            <td><code>&amp;para;</code></td>
+            <td><code>\P</code></td>
+          </tr>
+          <tr>
+            <td>§</td>
+            <td>section</td>
+            <td><code>U+000A7</code></td>
+            <td><code>&amp;sect;</code></td>
+            <td><code>\S</code></td>
+          </tr>
+          <tr>
+            <td>|&ThickSpace;|</td>
+            <td>thick space</td>
+            <td><code>U+0200A</code></td>
+            <td><code>&amp;ThickSpace;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>|&ThinSpace;|</td>
+            <td>thin space</td>
+            <td><code>U+02009</code></td>
+            <td><code>&amp;ThinSpace;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>|&ZeroWidthSpace;|</td>
+            <td>zero-width space</td>
+            <td><code>U+0200B</code></td>
+            <td><code>&amp;ZeroWidthSpace;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>@</td>
+            <td>at sign</td>
+            <td><code>U+00040</code></td>
+            <td><code>&amp;commat;</code></td>
+            <td><code></code></td>
+          </tr>
+          <tr>
+            <td>©</td>
+            <td>copyright</td>
+            <td><code>U+000A9</code></td>
+            <td><code>&amp;copy;</code></td>
+            <td><code>\copyright</code></td>
+          </tr>
+          <tr>
+            <td>®</td>
+            <td>registered trademark</td>
+            <td><code>U+000AE</code></td>
+            <td><code>&amp;reg;</code></td>
+            <td><code>\textregistered</code></td>
+          </tr>
+          <tr>
+            <td>™</td>
+            <td>trademark</td>
+            <td><code>U+02122</code></td>
+            <td><code>&amp;trade;</code></td>
+            <td><code>\texttrademark</code></td>
+          </tr>
+          <tr>
+            <td>♥</td>
+            <td>heart</td>
+            <td><code>U+02665</code></td>
+            <td><code>&amp;hearts;</code></td>
+            <td><code></code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+    <section>
+      <h2 id="references">References</h2>
+      <ol id="refs">
+        <li><a href="https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references" target="_blank" rel="noreferrer">&ldquo;HTML Standard&rdquo;</a>, WHATWG, modified 2022-12-26.</li>
+        <li><a href="https://en.wikibooks.org/wiki/LaTeX/Special_Characters" target="_blank" rel="noreferrer">&ldquo;LaTeX/Special Characters&rdquo;</a>, Wikibooks, modified 2022-11-12.</li>
+        <li><a href="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols/" target="_blank" rel="noreferrer">&ldquo;List of Greek letters and math symbols&rdquo;</a>, Overleaf. <a href="https://web.archive.org/web/20230103112923/https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols/" target="_blank" rel="noreferrer">Archived</a> on 2023-01-03.</li>
+        <li><a href="https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols" target="_blank" rel="noreferrer">&ldquo;List of LaTeX mathematical symbols&rdquo;</a>, OEIS, modified 2019-02-16.</li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_Unicode_characters" target="_blank" rel="noreferrer">&ldquo;List of Unicode characters&rdquo;</a>, Wikipedia, modified 2023-01-03.</li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references/" target="_blank" rel="noreferrer">&ldquo;List of XML and HTML character entity references&rdquo;</a>, Wikipedia, modified 2023-01-05.</li>
+      </ol>
+    </section>
+    <p style="text-align: center; margin-top: 2em;"><a href="#symbols">&uarr;&nbsp;Return to top</a></p>
+  </body>
+</html>
