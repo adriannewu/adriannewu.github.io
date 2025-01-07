@@ -12,10 +12,10 @@ This is the repository of my [personal site](https://adriannewu.github.io).
 <!--- - [Title](link) by Author ([license: name](link)) -->
 
 ### Typefaces
-<!--- - [Baskervville](https://github.com/anrt-type/ANRT-Baskervville) by ANRT students ([license: OFL-1.1](https://adriannewu.com/fonts/Baskervville-OFL.txt)) -->
+- [Baskervville](https://github.com/anrt-type/ANRT-Baskervville) by ANRT students ([license: OFL-1.1](https://adriannewu.com/fonts/Baskervville-OFL.txt))
 - [Cormorant](https://github.com/CatharsisFonts/Cormorant) by Christian Thalmann and the Cormorant Project Authors ([license: OFL-1.1](https://adriannewu.com/fonts/Cormorant-OFL.txt))
 - [Latin Modern Sans](https://www.gust.org.pl/projects/e-foundry/latin-modern) by Bogusław Jackowski and Janusz M. Nowacki ([license: GFL 1.0](https://adriannewu.com/fonts/LMSans-GFL.txt))
-<!-- - [Proza Libre](https://github.com/jasperdewaard/Proza-Libre) by Jasper de Waard ([license: OFL-1.1](https://adriannewu.com/fonts/ProzaLibre-OFL.txt)) -->
+- [Proza Libre](https://github.com/jasperdewaard/Proza-Libre) by Jasper de Waard ([license: OFL-1.1](https://adriannewu.com/fonts/ProzaLibre-OFL.txt))
 
 ## License
 
