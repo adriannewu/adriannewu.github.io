@@ -1,23 +1,25 @@
+<!--- ctrl+shift+M to preview file in Atom -->
+
 # adriannewu.com
 
 This is the repository of my [personal site](https://adriannewu.github.io/).
 
 ## Credits
 
-- [ASCII art](https://www.geocities.ws/SoHo/7373/pets.html) (on [404 page](https://adriannewu.com/404)) by Joan G. Stark — [license: custom](https://www.geocities.ws/SoHo/7373/please.html)
-- [External link CSS](https://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia/) (on various pages) by Brigand — [license: CC BY-SA 3.0](https://stackoverflow.com/help/licensing/)
-- [External link icon](https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_external-link-ltr-invert.svg) (on various pages) by OOjs UI Team and other contributors — [license: Expat/MIT License](https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/LICENSE-MIT)
-- [LaTeX logo typesetting](https://tess.oconnor.cx/2007/08/tex-poshlet) by  Theresa O’Connor — [license: CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-- [Rainbow animation](https://backtick.town/#1) (on [homepage](https://adriannewu.com/)) by backtick.town — [license: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-<!--- - [Title](link) by Author ([license: name](link)) -->
+* [ASCII art](https://www.geocities.ws/SoHo/7373/pets.html) (on [404 page](https://adriannewu.com/404)) by Joan G. Stark — [license: custom](https://www.geocities.ws/SoHo/7373/please.html)
+* [External link CSS](https://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia/) (on various pages) by Brigand — [license: CC BY-SA 3.0](https://stackoverflow.com/help/licensing/)
+* [External link icon](https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_external-link-ltr-invert.svg) (on various pages) by OOjs UI Team and other contributors — [license: Expat/MIT License](https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/LICENSE-MIT)
+* [LaTeX logo typesetting](https://tess.oconnor.cx/2007/08/tex-poshlet) by  Theresa O’Connor — [license: CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+* [Rainbow animation](https://backtick.town/#1) (on [homepage](https://adriannewu.com/)) by backtick.town — [license: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+<!--- * [Title](link) by Author ([license: name](link)) -->
 
 ### Typefaces
 
-- [Baskervville](https://github.com/anrt-type/ANRT-Baskervville/) by ANRT students — [license: OFL-1.1](https://adriannewu.com/fonts/Baskervville-OFL.txt)
-- [Cormorant](https://github.com/CatharsisFonts/Cormorant/) by Christian Thalmann and the Cormorant Project Authors — [license: OFL-1.1](https://adriannewu.com/fonts/Cormorant-OFL.txt)
-- [Latin Modern Sans](https://www.gust.org.pl/projects/e-foundry/latin-modern/) by Bogusław Jackowski and Janusz M. Nowacki — [license: GFL 1.0](https://adriannewu.com/fonts/LMSans-GFL.txt)
-- [Proza Libre](https://github.com/jasperdewaard/Proza-Libre/) by Jasper de Waard — [license: OFL-1.1](https://adriannewu.com/fonts/ProzaLibre-OFL.txt)
-<!--- - [Title](link) by Author ([license: name](link)) -->
+* [Baskervville](https://github.com/anrt-type/ANRT-Baskervville/) by ANRT students — [license: OFL-1.1](https://adriannewu.com/fonts/Baskervville-OFL.txt)
+* [Cormorant](https://github.com/CatharsisFonts/Cormorant/) by Christian Thalmann and the Cormorant Project Authors — [license: OFL-1.1](https://adriannewu.com/fonts/Cormorant-OFL.txt)
+* [Latin Modern Sans](https://www.gust.org.pl/projects/e-foundry/latin-modern/) by Bogusław Jackowski and Janusz M. Nowacki — [license: GFL 1.0](https://adriannewu.com/fonts/LMSans-GFL.txt)
+* [Proza Libre](https://github.com/jasperdewaard/Proza-Libre/) by Jasper de Waard — [license: OFL-1.1](https://adriannewu.com/fonts/ProzaLibre-OFL.txt)
+<!--- * [Title](link) by Author ([license: name](link)) -->
 
 ## License
 
@@ -32,8 +34,17 @@ Except where otherwise noted, this work is licensed under the
 
 ### Notes
 
-- The [audio files](https://github.com/adriannewu/adriannewu.github.io/tree/master/audio) on my [name page](https://adriannewu.com/name) were generated with [ipa-reader.com](https://ipa-reader.com/) (which uses Amazon Polly) and are not licensed under Creative Commons.
-- The [ASCII art](https://adriannewu.com/404) and [typefaces](https://github.com/adriannewu/adriannewu.github.io/tree/master/fonts) are licensed under different, incompatible licenses ([linked above](https://github.com/adriannewu/adriannewu.github.io#credits)).
-- [PDFs on my website](https://github.com/adriannewu/adriannewu.github.io/tree/master/pdfs) aren't necessarily licensed under Creative Commons. (You should assume they aren't.)
-- [Well-prepared cat](https://adriannewu.com/images/wpc.png) is edited from an illustration in a textbook (h/t [Academia Obscura](https://xcancel.com/AcademiaObscura/status/1240423679198199809/)) and is not licensed under Creative Commons.
- <!--- - [Title](link) by Author ([license: name](link)) -->
+* The [audio files](https://github.com/adriannewu/adriannewu.github.io/tree/master/audio) on my [name page](https://adriannewu.com/name) were generated with [ipa-reader.com](https://ipa-reader.com/) (which uses Amazon Polly) and are not licensed under Creative Commons.
+* The [ASCII art](https://adriannewu.com/404) and [typefaces](https://github.com/adriannewu/adriannewu.github.io/tree/master/fonts) are licensed under different, incompatible licenses ([linked above](https://github.com/adriannewu/adriannewu.github.io#credits)).
+* [PDFs on my website](https://github.com/adriannewu/adriannewu.github.io/tree/master/pdfs) aren't necessarily licensed under Creative Commons. (You should assume they aren't.)
+* [Well-prepared cat](https://adriannewu.com/images/wpc.png) is edited from an illustration in a textbook (h/t [Academia Obscura](https://xcancel.com/AcademiaObscura/status/1240423679198199809/)) and is not licensed under Creative Commons.
+ <!--- * [Title](link) by Author ([license: name](link)) -->
+
+## Personal to-do list
+* Update `projects` page.
+* Upload research portfolio to `/pdfs`
+* Update `vitae` redirect.
+* Replace files in`/audio` with ones from [Wikispeak](https://wikspeak.sourceforge.net/), [Open IPA](https://www.openipa.org/), or [eSpeak](https://espeak.sourceforge.net/).
+* Move all SVG and ICO files to `/icons` or `/images` and update internal links.
+* Create `cats` page.
+* Update typefaces in `style.css` and on various pages.
