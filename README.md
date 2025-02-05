@@ -44,7 +44,7 @@ Except where otherwise noted, this work is licensed under the
 * Update `projects` page.
 * Upload research portfolio to `/pdfs`
 * Update `vitae` redirect.
-* Replace files in`/audio` with ones from [Wikispeak](https://wikspeak.sourceforge.net/), [Open IPA](https://www.openipa.org/), or [eSpeak](https://espeak.sourceforge.net/).
+* Replace files in`/audio` with ones from [WikSpeak](https://wikspeak.sourceforge.net/), [Open IPA](https://www.openipa.org/), or [eSpeak](https://espeak.sourceforge.net/).
 * Move all SVG and ICO files to `/icons` or `/images` and update internal links.
 * Create `cats` page.
 * Update typefaces in `style.css` and on various pages.
