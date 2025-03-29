@@ -10,7 +10,7 @@ This is the repository of my [personal site](https://adriannewu.github.io/).
 * [External link CSS](https://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia/) (on various pages) by Brigand — [license: CC BY-SA 3.0](https://stackoverflow.com/help/licensing/)
 * [External link icon](https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_external-link-ltr-invert.svg) (on various pages) by OOjs UI Team and other contributors — [license: Expat/MIT License](https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/LICENSE-MIT)
 * [LaTeX logo typesetting](https://tess.oconnor.cx/2007/08/tex-poshlet) by  Theresa O’Connor — [license: CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-* [Rainbow animation](https://backtick.town/#1) (on [homepage](https://adriannewu.com/)) by backtick.town — [license: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* [Rainbow animation](https://backtick.town/#1) (on [home page](https://adriannewu.com/)) by backtick.town — [license: CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 <!--- * [Title](link) by Author ([license: name](link)) -->
 
 ### Typefaces
